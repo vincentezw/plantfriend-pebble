@@ -1,0 +1,167 @@
+{
+  "name": "Plantfriend",
+  "author": "vincentezw",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {
+    "@rebble/clay": "^1.0.8"
+  },
+  "pebble": {
+    "displayName": "Plant friend",
+    "uuid": "baac8f85-d550-4e22-8ead-8a7825c83543",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite",
+      "emery",
+      "flint",
+      "gabbro"
+    ],
+    "capabilities": [
+      "configurable",
+      "network"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "messageKeys": [
+      "cmd",
+      "cur_menu",
+      "data"
+    ],
+    "resources": {
+      "media": [
+        {
+          "type": "bitmap",
+          "name": "ICON_TASKS",
+          "file": "icon_tasks.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "ICON_TASKS_SELECTED",
+          "file": "icon_tasks_selected.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "ICON_ACTIONS",
+          "file": "icon_actions.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "ICON_ACTIONS_SELECTED",
+          "file": "icon_actions_selected.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "ICON_HOUSEHOLDS",
+          "file": "icon_households.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "ICON_HOUSEHOLDS_SELECTED",
+          "file": "icon_households_selected.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "ICON_CLEAN",
+          "file": "icon_clean.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "ICON_CLEAN_SELECTED",
+          "file": "icon_clean_selected.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "ICON_FERTILISE",
+          "file": "icon_fertilise.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "ICON_FERTILISE_SELECTED",
+          "file": "icon_fertilise_selected.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "ICON_MIST",
+          "file": "icon_mist.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "ICON_MIST_SELECTED",
+          "file": "icon_mist_selected.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "ICON_WATER",
+          "file": "icon_water.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "ICON_WATER_SELECTED",
+          "file": "icon_water_selected.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "ICON_NEXT",
+          "file": "icon_next.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "ICON_NEXT_SELECTED",
+          "file": "icon_next_selected.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "ICON_PREVIOUS",
+          "file": "icon_previous.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "ICON_PREVIOUS_SELECTED",
+          "file": "icon_previous_selected.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "ICON_DONE",
+          "file": "icon_done.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "ICON_DONE_SELECTED",
+          "file": "icon_done_selected.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "ICON_SNOOZE",
+          "file": "icon_snooze.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "ICON_SNOOZE_SELECTED",
+          "file": "icon_snooze_selected.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "ICON_UNDO",
+          "file": "icon_undo.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "ICON_UNDO_SELECTED",
+          "file": "icon_undo_selected.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "MENU_ICON",
+          "file": "logo.png",
+          "menuIcon": true
+        }
+      ]
+    }
+  }
+}
